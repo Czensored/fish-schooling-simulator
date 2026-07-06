@@ -11,6 +11,16 @@ npm install
 npm run dev
 ```
 
+## Development Setup
+
+Enable the tracked Git hooks after cloning:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+The pre-commit hook runs `cargo build --release` and blocks the commit if the Rust code does not compile.
+
 ## Testing
 
 ```sh

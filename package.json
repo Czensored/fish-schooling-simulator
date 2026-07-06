@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:wasm": "CARGO_TARGET_DIR=target wasm-pack build --target web --out-dir pkg",
+    "build:wasm": "node scripts/build-wasm.mjs",
+    "build:wasm:force": "CARGO_TARGET_DIR=target wasm-pack build --target web --out-dir pkg",
     "dev": "npm run build:wasm && vite --host 127.0.0.1",
     "build": "npm run build:wasm && vite build",
     "preview": "vite preview --host 127.0.0.1"

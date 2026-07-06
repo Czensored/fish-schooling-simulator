@@ -1,9 +1,6 @@
 # Rust build output
 /target/
 
-# WebAssembly build output
-/pkg/
-
 # Frontend dependencies and build output
 /node_modules/
 /dist/

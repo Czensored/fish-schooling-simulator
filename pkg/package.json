@@ -1,0 +1,15 @@
+{
+  "name": "fish-schooling-simulator",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "fish_schooling_simulator_bg.wasm",
+    "fish_schooling_simulator.js",
+    "fish_schooling_simulator.d.ts"
+  ],
+  "main": "fish_schooling_simulator.js",
+  "types": "fish_schooling_simulator.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
